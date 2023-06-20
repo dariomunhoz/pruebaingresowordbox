@@ -12,4 +12,11 @@ public class ProfileManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public Image picture;
 
+    [Header("Details")]
+    public TextMeshProUGUI _nameText;
+    public TextMeshProUGUI email;
+    public TextMeshProUGUI age;
+    public TextMeshProUGUI gender;
+    public TextMeshProUGUI city;
+    public Image _picture;
 }

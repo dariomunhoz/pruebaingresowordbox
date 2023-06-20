@@ -996,8 +996,8 @@ GameObject:
   - component: {fileID: 1006502332}
   - component: {fileID: 1006502331}
   m_Layer: 5
-  m_Name: Profile
-  m_TagString: Untagged
+  m_Name: Details
+  m_TagString: Details
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1682,6 +1682,7 @@ MonoBehaviour:
   profiles: []
   prefab: {fileID: 3643616698573949513, guid: 877db42390eaeb448ad6c20d7e6c04ad, type: 3}
   parent: {fileID: 675539921}
+  profilePic: {fileID: 0}
 --- !u!4 &1681354385
 Transform:
   m_ObjectHideFlags: 0

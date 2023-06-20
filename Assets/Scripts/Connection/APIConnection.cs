@@ -13,6 +13,7 @@ public class APIConnection : MonoBehaviour
     public List<Profile> profiles = new List<Profile>();
     public GameObject prefab;
     public GameObject parent;
+    public GameObject profilePic;
     void Start()
     {
         StartCoroutine(ConnectToApi("https://randomuser.me/api/?results=20"));
@@ -103,6 +104,16 @@ public class APIConnection : MonoBehaviour
 
         // Set the text fields in the prefab's ProfileManager
         prefabProfileManager.nameText.text = profile.Name;
+
+
+        prefabProfileManager._nameText.text = profile.Name;
+        prefabProfileManager._picture.sprite = profile.picture;
+        prefabProfileManager.email.text = profile.email;
+        prefabProfileManager.gender.text = profile.gender;
+        prefabProfileManager.age.text = profile.age;
+        prefabProfileManager.city.text = profile.city;
+
+
 
 
         // Set the picture sprite in the prefab's ProfileManager
